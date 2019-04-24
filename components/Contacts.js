@@ -7,8 +7,6 @@ var Contacts = React.createClass({
             return React.createElement(Contact, {item:contact, key: contact.id})
         });
 
-        // console.log(this.props.items);
-
         return(
             React.createElement('ul', {className: 'contactsList'}, contacts)
         );
