@@ -1,0 +1,92 @@
+* {
+    font-family: arial;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1200px; */
+    align-items: center;
+    
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm input {
+    margin: 5px;
+    border: none;
+    padding: 5px;
+    border-bottom: 2px solid #fc8f00;
+    outline: none;
+}
+
+.contactForm button {
+    /* width: 200px; */
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: 2px solid #fc8f00;
+    background: none;
+    transition: .5s;
+}
+
+.contactForm button:hover {
+    background: #fc8f00;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #fc8f00;
+}
+
+.contactImage {
+    width: 50px;
+}
+
+
+.desc-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px; 
+}
+
+.desc-item a.contactLabel {
+    cursor: pointer;
+    text-decoration: none;
+    color: #818181;
+}
+
+.desc-item p.contactLabel {
+    font-weight: 700;
+}
+
+.desc-item .contactLabel {
+    margin: 5px;
+}
+
+.contactItem .icons {
+    margin-left: 30px;
+}
+
+.contactItem .icons .edit, .contactItem .icons .trash {
+    width: 20px;
+    margin: 0 10px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.contactItem .icons .edit:hover, .contactItem .icons .trash:hover {
+    opacity: 1;
+}
+
+.contactsList {
+    padding: 0;
+}

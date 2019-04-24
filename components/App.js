@@ -24,8 +24,6 @@ var contacts = [
     lastName: '',
     email: ''
   };
-  
-  
 
 var App = React.createClass({
     render: function () {

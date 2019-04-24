@@ -10,7 +10,7 @@ var Contacts = React.createClass({
         // console.log(this.props.items);
 
         return(
-            React.createElement('ul', {className: 'conractsList'}, contacts)
+            React.createElement('ul', {className: 'contactsList'}, contacts)
         );
     }
 });
